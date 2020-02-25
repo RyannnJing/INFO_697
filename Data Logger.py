@@ -16,7 +16,7 @@ while True:
     file_list = os.listdir()
     file_name = 'data_env.csv'
 
-    # If the file exist, add data to it
+    # If the file exist, history data append with new data
     if file_name in file_list:
         log_file = open(file_name, 'r')
         log_content = log_file.read() + log_content
