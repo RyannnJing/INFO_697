@@ -7,15 +7,15 @@ import random
 lcd = LCD1620()
 
 # Introduce the game
-lcd.puts("It's game time", 0, 0)
-lcd.puts("Odd or even", 1, 1)
+lcd.puts('It's game time', 0, 0)
+lcd.puts('Odd or even', 1, 1)
 sleep(3000)
 lcd.clear()
-lcd.puts("Pls use the btns", 0, 0)
-lcd.puts("A=Odd, B=Even", 1, 1)
+lcd.puts('Pls use the btns', 0, 0)
+lcd.puts('A=Odd, B=Even', 1, 1)
 sleep(3000)
 lcd.clear()
-lcd.puts("Here we go!", 0, 0)
+lcd.puts('Here we go!', 0, 0)
 sleep(3000)
 lcd.clear()
 
@@ -36,8 +36,8 @@ while in_game_loop:
             display.clear()
 
             # Ask the user to restart or not
-            lcd.puts("A=restart", 0, 0)
-            lcd.puts("B =quit", 1, 1)
+            lcd.puts('A=restart', 0, 0)
+            lcd.puts('B =quit', 1, 1)
             while True:
                 if button_a.is_pressed():
                     reset()
@@ -45,5 +45,5 @@ while in_game_loop:
                     lcd.clear()
                     sleep(1000)
                     in_game_loop = False
-                    lcd.puts("Thank you!")
+                    lcd.puts('Thank you!')
 # The end
