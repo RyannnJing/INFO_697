@@ -1,5 +1,5 @@
 '''
-Introduce
+Introduction
 Final project: test the plant environment and water the plant when it's dry.
 The water level in a tank will be tested
 Users will be noticed to add water to tank with the buzzer during day time.
